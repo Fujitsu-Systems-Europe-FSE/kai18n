@@ -1,0 +1,122 @@
+{
+    "app": {
+      "name": "Kaipplication",
+      "description": "An AI-powered application for automation and productivity.",
+      "version": "1.0.0"
+    },
+    "auth": {
+      "login": "Login",
+      "logout": "Logout",
+      "username": "Username",
+      "password": "Password",
+      "forgot_password": "Forgot your password?",
+      "reset_password": "Reset Password",
+      "signup": "Sign Up",
+      "welcome_back": "Welcome back, {username}!",
+      "invalid_credentials": "Invalid username or password.",
+      "account_locked": "Your account has been locked due to multiple failed attempts.",
+      "password_requirements": "Password must be at least {min_length} characters long and contain a mix of letters and numbers."
+    },
+    "dashboard": {
+      "welcome_message": "Welcome to Kaipplication, {username}!",
+      "overview": "Overview",
+      "recent_activity": "Recent Activity",
+      "tasks": "You have {task_count} tasks pending.",
+      "notifications": "You have {notification_count} new notifications.",
+      "settings": "Settings"
+    },
+    "notifications": {
+      "new_message": "{sender} sent you a new message.",
+      "task_completed": "Task '{taskName}' has been marked as completed.",
+      "update_available": "A new update (v{version}) is available. Click here to update now."
+    },
+    "errors": {
+      "network_error": "Network error. Please check your connection and try again.",
+      "server_error": "A server error occurred. Please try again later.",
+      "unauthorized": "You are not authorized to perform this action.",
+      "not_found": "The requested resource '{resource_name}' could not be found.",
+      "validation_failed": "Some fields contain invalid values. Please check and try again."
+    },
+    "ui": {
+      "buttons": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "submit": "Submit",
+        "refresh": "Refresh"
+      },
+      "placeholders": {
+        "search": "Search {entity_type}...",
+        "enter_text": "Enter {field_name} here...",
+        "select_option": "Select an option..."
+      },
+      "tooltips": {
+        "settings": "Go to settings",
+        "profile": "View your profile",
+        "help": "Get help"
+      }
+    },
+    "profile": {
+      "view_profile": "View Profile",
+      "edit_profile": "Edit Profile",
+      "change_password": "Change Password",
+      "update_success": "Your profile has been updated successfully.",
+      "delete_account": "Delete Account",
+      "confirm_delete": "Are you sure you want to delete your account, {username}? This action cannot be undone."
+    },
+    "settings": {
+      "general": {
+        "title": "General Settings",
+        "language": "Language",
+        "timezone": "Time Zone",
+        "dark_mode": "Dark Mode",
+        "enable_notifications": "Enable Notifications"
+      },
+      "privacy": {
+        "title": "Privacy Settings",
+        "data_sharing": "Allow data sharing for better recommendations",
+        "location_tracking": "Enable location tracking",
+        "clear_data": "Clear all stored data"
+      },
+      "account": {
+        "title": "Account Settings",
+        "email": "Email Address",
+        "change_email": "Change Email",
+        "password": "Change Password",
+        "two_factor_auth": "Enable Two-Factor Authentication",
+        "last_login": "Last login: {last_login_date}"
+      }
+    },
+    "task_management": {
+      "tasks": "Tasks",
+      "create_task": "Create New Task",
+      "task_name": "Task Name",
+      "due_date": "Due Date",
+      "status": {
+        "pending": "Pending",
+        "in_progress": "In Progress",
+        "completed": "Completed"
+      },
+      "priority": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "task_assigned": "{assignee} has been assigned to task '{task_name}'.",
+      "task_due_soon": "Task '{task_name}' is due in {days_remaining} days.",
+      "no_tasks": "You have no tasks at the moment."
+    },
+    "support": {
+      "contact_us": "Contact Us",
+      "help_center": "Help Center",
+      "report_issue": "Report an Issue",
+      "faq": "Frequently Asked Questions"
+    },
+    "legal": {
+      "terms_of_service": "Terms of Service",
+      "privacy_policy": "Privacy Policy",
+      "cookie_policy": "Cookie Policy"
+    }
+  }
+  

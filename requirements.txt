@@ -1,0 +1,15 @@
+# Core dependencies
+cohere>=4.27  # AI translation API
+pandas>=2.0   # Data manipulation for i18n files
+pyyaml>=6.0   # YAML support
+openpyxl>=3.0
+
+# CLI support
+click>=8.1    # CLI framework for easy commands
+
+# Testing & development
+pytest>=7.2   # Unit testing framework
+pytest-cov>=4.0 # Test coverage
+black>=23.1   # Code formatter for clean code
+flake8>=6.0   # Linter for code quality
+mypy>=1.1     # Type checking
