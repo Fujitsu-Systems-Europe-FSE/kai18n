@@ -65,7 +65,6 @@ def co():
 
     # Connect to cohere
     cohere_api_key = os.environ.get("COHERE_API_KEY")
-    cohere_api_key = "vF5LkOIyxnHqjySFxGK6Gyy0hzOyBedObDFU1h9C" # Test key for Nova 2
     co = cohere.ClientV2(cohere_api_key)
 
     return co
